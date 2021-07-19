@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гет Код</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row py-4 align-items-center justify-md-content-between">
+        <div class="col-6 col-md-3 col-lg-3 header-logo">
+          <img class="logo-icon" src="img/logo.png" alt="logo: гет код">
+        </div>
+        <div class="col-lg-4 col-md-5 d-none d-md-flex align-items-center header-phone">
+          <img class="phone-icon" src="img/icon-phone.png" alt="icon: phone">
+          <span class="d-inline-block ms-2 ms-xl-4 fs-4">+7(499)400-26-30</span>
+        </div>
+        <div class="d-none d-md-block col-md-2 col-lg-3 col-xxl-2 header-socials">
+          <a class="me-xl-4 me-2" href="#">
+            <img class="social-icon" src="img/icon-telegram.png" alt="icon: telegram"></a>
+          <a class="me-xl-4 me-2" href="#">
+            <img class="social-icon" src="img/icon-insta.png" alt="icon: instagram"></a>
+          <a class="me-xl-4 me-2" href="#">
+            <img class="social-icon" src="img/icon-vk.png" alt="icon: vk"></a>
+        </div>
+        <div class="col-6 col-lg-2 d-flex align-items-center header-menu">
+          <span class="fs-4">Главная</span>
+          <div class="ms-4 menu-icon">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+          </div>
+          <nav class="nav flex-column p-3 d-none">
+            <a class="mb-3 d-inline-block nav-link" href="#">Главная</a>
+            <a class="mb-3 d-inline-block nav-link" href="about.html">О нас</a>
+            <a class="mb-3 d-inline-block nav-link" href="menu.html">Меню</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end: header -->
+
+  <section class="promo pb-4 pt-5">
+    <div class="container-fluid">
+      <div class="fs-1 fs-sm-1 text-center mb-5 fw-bolder promo-title">Мы выбираем <span class="bitrix">Битрикс 24</span></div>
+      <ul class="row justify-content-between mb-5 promo-list">
+        <li class="col-2 offset-sm-1 mb-3 mb-sm-0 col-sm-2 d-flex flex-column align-items-center promo-list-item">
+          <img class="mb-1 mb-sm-3 promo-list-icon" src="img/icon-company.png" alt="icon: компания">
+          <span class="desktop-text text-center">Компания</span>
+          <span class="mobile-text text-center">Офис</span>
+        </li>
+        <li class="col-2 mb-3 mb-sm-0 col-sm-2 d-flex flex-column align-items-center promo-list-item">
+          <img class="mb-1 mb-sm-3 promo-list-icon" src="img/icon-projects.png" alt="icon: Задачи и проекты">
+          <span class="desktop-text text-center">Задачи и&nbsp;проекты</span>
+          <span class="mobile-text text-center">Задачи</span>          
+        </li>
+        <li class="col-2 mb-3 mb-sm-0 col-sm-2 d-flex flex-column align-items-center promo-list-item">
+          <img class="mb-1 mb-sm-3 promo-list-icon" src="img/icon-crm.png" alt="icon: crm">
+          <span class="text-center">CRM</span>
+        </li>
+        <li class="col-2 offset-sm-0 mb-3 mb-sm-0 col-sm-2 d-flex flex-column align-items-center promo-list-item">
+          <img class="mb-1 mb-sm-3 promo-list-icon" src="img/icon-contact-center.png" alt="icon: Контакт центр">
+          <span class="desktop-text text-center">Контакт центр</span>
+          <span class="mobile-text text-center">Контакт</span>
+        </li>
+        <li class="col-2 mb-3 mb-sm-0 col-sm-2 d-flex flex-column align-items-center promo-list-item">
+          <img class="mb-1 mb-sm-3 promo-list-icon" src="img/icon-sites.png" alt="icon: Сайты  и магазины">
+          <span class="desktop-text text-center">Сайты и&nbsp;магазины</span>
+          <span class="mobile-text text-center">Задачи</span>          
+        </li>
+      </ul>
+      <div class="text-center fs-4 mb-3 fw-bolder promo-description">Установка, настройка и разработка любой сложности</div>
+      <p class="text-center">ГЕТ-КОД</p>
+      <p class="text-center orange-text">+74994002630</p>
+        <div class="ratio ratio-4x3 mx-auto mb-4 promo-video">
+          <iframe src="https://www.youtube.com/#" title="YouTube video" allowfullscreen></iframe>
+        </div>
+    </div>
+  </section>
+  <!-- end: мы выбираем битрикс -->
+
+  <section class="mt-170 text-center standart-settings">
+    <div class="fs-3 mb-5 section-title ">
+      Стандартная настройка
+    </div>
+      <div class="container-fluid section-content-top p-5">
+        <div class="row align-items-center">
+          <div class="mb-3 mb-md-0 col-12 col-md-6 settings-img">
+            <img class="w-75 mx-auto standart-settings-img" src="img/gadgets.png" alt="картинка: устройства">
+          </div>
+          <div class="col-12 col-md-6 settings-description">
+            <p>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю. <br>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю.               
+            </p>          
+          </div>
+        </div>
+    </div>
+    <div class="section-content-bottom d-flex flex-column">
+      <ul class="settings-products-list">
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-1.png" alt="картинка: продукт 1">
+          <span>Продукт 1</span>
+        </li>
+        <div class="dots"></div>
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-2.png" alt="картинка: продукт 2">
+          <span>Продукт 2</span>
+        </li>
+        <div class="dots"></div>
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-3.png" alt="картинка: продукт 3">
+          <span>Продукт 3</span>
+        </li>
+        <div class="dots"></div>
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-4.png" alt="картинка: продукт 4">
+          <span>Продукт 4</span>
+        </li>
+      </ul>
+      <button class="btn btn-custom align-self-center show-more-btn" type="button" data-block="1">Подробнее</button>
+    </div>
+    <div class="d-none more-block">
+      <div class="container-fluid text-start p-5 mb-2 mb-md-5 order-form">
+        <div class="row align-items-center">
+          <div class="mb-3 mb-md-0 col-12 col-md-6 order-description">
+            <p>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю. <br>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю.               
+            </p>   
+          </div>
+          <div class="col-12 col-md-6">
+            <form class="row consult-from">
+              <div class="text-center">
+                <div class="mb-3 consult-field field-name">
+                  <input class="form-control" type="text" id="name" placeholder="Имя">
+                </div>
+                <div class="mb-3 consult-field field-phone">
+                  <input class="form-control" type="tel" id="phone" placeholder="Телефон">
+                </div>
+                <div class="mb-3 consult-field field-email">
+                  <input class="form-control" type="email" id="email" placeholder="Email">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-custom btn-green" type="submit">Заказать</button>
+      <button class="arrow-btn arrow-btn--1"></button>
+    </div>
+  </section>
+  <!-- end: стандартная настройка -->
+
+  <section class="mt-170 text-center individual-settings">
+    <div class="fs-3 mb-5 text-center section-title">
+      Индивидуальная настройка
+    </div>
+    <div class="container-fluid section-content-top p-5">
+        <div class="row mb-5 individual-settings-img">
+          <img class="standart-settings-img" src="img/products-image.png" alt="картинка: страницы битрикса">
+        </div>
+        <div class="row individual-settings-description">
+            <p>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю. <br>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю.               
+            </p>   
+        </div>
+    </div>
+    <div class="section-content-bottom">
+      <ul class="individual-settings-products-list">
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-1-1.png" alt="картинка: продукт 1">
+          <span>Продукт 1</span>
+        </li>
+        <div class="dots"></div>
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-2-1.png" alt="картинка: продукт 2">
+          <span>Продукт 2</span>
+        </li>
+        <div class="dots"></div>
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-3-1.png" alt="картинка: продукт 3">
+          <span>Продукт 3</span>
+        </li>
+        <div class="dots"></div>
+        <li class="settings-products-list-item">
+          <img class="rounded-circle mb-2 mb-lg-3 settings-products-list-image" src="img/icon-product-4-1.png" alt="картинка: продукт 4">
+          <span>Продукт 4</span>
+        </li>
+      </ul>
+      <button class="btn btn-custom align-self-center show-more-btn" type="button" data-block="2">Подробнее</button>
+    </div>
+    <div class="d-none more-block">
+      <div class="container-fluid text-start p-5 mb-2 mb-md-5 order-form">
+        <div class="row align-items-center">
+          <div class="mb-3 mb-md-0 col-12 col-md-6 order-description">
+            <p>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю. <br>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю.               
+            </p>   
+          </div>
+          <div class="col-12 col-md-6">
+            <form class="row consult-from">
+              <div class="text-center">
+                <div class="mb-3 consult-field field-name">
+                  <input class="form-control" type="text" id="name" placeholder="Имя">
+                </div>
+                <div class="mb-3 consult-field field-phone">
+                  <input class="form-control" type="tel" id="phone" placeholder="Телефон">
+                </div>
+                <div class="mb-3 consult-field field-email">
+                  <input class="form-control" type="email" id="email" placeholder="Email">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-custom btn-green" type="submit">Заказать</button>
+      <button class="arrow-btn arrow-btn--2"></button>
+    </div>
+  </section>
+  <!-- end: индивидуальная настройка -->
+
+  <section class="mt-170 text-center loyalty-program">
+    <div class="fs-3 mb-5 text-center section-title">
+      Программа лояльности
+    </div>
+    <div class="container d-flex flex-column">
+      <ul class="programs-list">
+        <li class="programs-list-item">
+          <img class="programs-list-image" src="img/icon-minimum.png" alt="иконка: минимум">
+          <span class="programs-name">МИНИМУМ</span>
+          <span class="programs-cost">100.000 р.</span>
+        </li>
+        <li class="programs-list-item">
+          <img class="programs-list-image" src="img/icon-start.png" alt="иконка: легкий старт">
+          <span class="programs-name">ЛЕГКИЙ СТАРТ</span>
+          <span class="programs-cost">300.000 р.</span>
+        </li>
+        <li class="programs-list-item">
+          <img class="programs-list-image" src="img/icon-business.png" alt="иконка: бизнес">
+          <span class="programs-name">БИЗНЕС</span>
+          <span class="programs-cost">500.000 р.</span>
+        </li>
+        <li class="programs-list-item">
+          <img class="programs-list-image" src="img/icon-vip.png" alt="иконка: vip">
+          <span class="programs-name">VIP</span>
+          <span class="programs-cost">800.000 р.</span>
+        </li>
+        <li class="programs-list-item">
+          <img class="programs-list-image" src="img/icon-partner.png" alt="иконка: партнерский">
+          <span class="programs-name">ПАРТНЕРСКИЙ</span>
+          <span class="programs-cost">150.000 р.</span>
+        </li>
+      </ul>
+      <button class="btn btn-custom align-self-center show-more-btn" type="button" data-block="3">Подробнее</button>
+    </div>
+    <div class="d-none more-block">
+      <div class="mt-5 price-list">
+        <p class="text-center fs-3 price-heading">Минимум</p>
+        <div class="container-fluid row align-items-center m-0 p-0 mb-4 price-table">
+          <ol class="col-12 col-md-10 text-start m-0 p-0 list-group-numbered">
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Пониженная ставка на услуги “Установка, настройка, разработка по общей цене 2000 руб/час”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Клиентская поддержка 15 часов
+            </li>
+          </ol>
+          <div class="p-3 p-md-0 col-12 col-md-2 fs-4 text-center list-price">
+            100.000 ₽
+          </div>
+        </div>
+        <!-- end: минимум -->
+        <p class="text-center fs-3 price-heading">Легкий старт</p>
+        <div class="container-fluid row align-items-center m-0 p-0 mb-4 price-table">
+          <ol class="col-12 col-md-10 text-start m-0 p-0 list-group-numbered">
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Пониженная ставка на услуги
+              “Установка, настройка, разработка по общей цене 2000 руб/час”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              В стоимость подписки входит лицензия на облачный “Битрикс 24” сроком 3 месяца на лицензию бизнес - тарифа “Команда”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              3 бесплатные конференции обучения
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Клиентская поддержка 20 часов
+            </li>
+          </ol>
+          <div class="p-3 p-md-0 col-12 col-md-2 fs-4 text-center">
+            300.000 ₽
+          </div>
+        </div>
+        <!-- end: легкий старт -->
+        <p class="text-center fs-3 price-heading">Бизнес</p>
+        <div class="container-fluid row align-items-center m-0 p-0 mb-4 price-table">
+          <ol class="col-12 col-md-10 text-start m-0 p-0 list-group-numbered">
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Пониженная ставка на услуги “Установка, настройка, разработка по общей цене 1800 руб/час”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              В стоимость подписки входит лицензия на облачный “Битрикс 24” сроком 3 месяца на лицензию бизнес - тарифа “Команда”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              3 бесплатные конференции обучения
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Интеграция “1С+Битрикс24”. Выгрузка справочников из 1С в Битрикс24
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Клиентская поддержка 30 часов
+            </li>
+          </ol>
+          <div class="p-3 p-md-0 col-12 col-md-2 fs-4 text-center">
+            500.000 ₽
+          </div>
+        </div>
+        <!-- end: бизнес -->
+        <p class="text-center fs-3 price-heading">VIP</p>
+        <div class="container-fluid row align-items-center m-0 p-0 mb-4 price-table">
+          <ol class="col-12 col-md-10 text-start m-0 p-0 list-group-numbered">
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Пониженная ставка на услуги “Установка, настройка, разработка по общей цене 1300 руб/час”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              В стоимость подписки входит лицензия на облачный “Битрикс 24” сроком 6 месяца на лицензию бизнес - тарифа “Команда”
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              5 бесплатные конференции обучения
+            </li>
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Клиентская поддержка 50 часов
+            </li>
+          </ol>
+          <div class="p-3 p-md-0 col-12 col-md-2 fs-4 text-center">
+            800.000 ₽
+          </div>
+        </div>
+        <!-- end: VIP -->
+        <p class="text-center fs-3 price-heading">Партнерский</p>
+        <div class="container-fluid row align-items-center m-0 p-0 mb-4 price-table">
+          <ol class="col-12 col-md-10 text-start m-0 p-0 list-group-numbered">
+            <li class="row flex-nowrap py-4 px-5 g-0 price-list-item">
+              Пониженная ставка на услуги “Установка, настройка, разработка по общей цене 1600 руб/час”
+            </li>
+          </ol>
+          <div class="p-3 p-md-0 col-12 col-md-2 fs-4 text-center">
+            150.000 ₽
+          </div>
+        </div>
+        <div class="container-fluid text-start p-5 order-form">
+          <div class="row align-items-center">
+            <div class="mb-3 mb-md-0 col-12 col-md-6 order-description">
+              Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Семантика даль, если большой повстречался они грустный которое не вскоре себя, знаках необходимыми всемогущая первую большого осталось щеке все заглавных.
+              Свой взобравшись необходимыми снова рыбного, большого, грустный свое ручеек, составитель наш путь дал за города обеспечивает рукопись? Алфавит знаках, напоивший бросил дал дорогу всеми решила свой! Злых диких не коварных?
+            </div>
+            <div class="col-12 col-md-6">
+              <form class="row consult-from">
+                <div class="text-center">
+                  <div class="mb-3 consult-field field-name">
+                    <input class="form-control" type="text" id="name" placeholder="Имя">
+                  </div>
+                  <div class="mb-3 consult-field field-phone">
+                    <input class="form-control" type="tel" id="phone" placeholder="Телефон">
+                  </div>
+                  <div class="mb-3 consult-field field-email">
+                    <input class="form-control" type="email" id="email" placeholder="Email">
+                  </div>
+                  <div>
+                    <select class="form-select">
+                      <option selected>Выберите продукт</option>
+                      <option value="1">Продукт 1</option>
+                      <option value="2">Продукт 2</option>
+                      <option value="3">Продукт 3</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- end: партнерский -->
+      </div>
+
+      <button class="btn btn-custom btn-green hide-btn" type="button">Скрыть</button>
+    </div>
+  </section>
+  <!-- end: программа лояльности -->
+
+  <section class="mt-170 text-center products">
+    <div class="fs-3 mb-5 text-center section-title">
+      Продажа продуктов и лицензий
+    </div>
+    <div class="container-fluid section-content-top p-5">
+        <div class="row products-description">
+            <p>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю. <br>
+              Съешь ещё этих мягких французских булок, да выпей же чаю. Съешь ещё этих мягких французских булок, да выпей же чаю.               
+            </p>   
+        </div>
+    </div>
+    <div class="container-fluid section-content-bottom p-5 d-flex flex-column">
+      <!-- Slider main container -->
+      <div class="swiper-container w-100 mb-5">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="d-flex mx-auto product-img" src="img/product-1.png"  alt="картинка: продукт">
+          </div>
+          <div class="swiper-slide">
+            <img class="d-flex mx-auto product-img" src="img/product-2.png"  alt="картинка: продукт">
+          </div>
+          <div class="swiper-slide">
+            <img class="d-flex mx-auto product-img" src="img/product-3.png"  alt="картинка: продукт">
+          </div>
+          <div class="swiper-slide">
+            <img class="d-flex mx-auto product-img" src="img/product-4.png"  alt="картинка: продукт">
+          </div>
+        </div>
+
+        <div class="swiper-button-prev text-secondary"></div>
+        <div class="swiper-button-next text-secondary"></div>
+      </div>
+      <button class="btn btn-custom align-self-center show-more-btn" type="button" data-block="4">Подробнее</button>
+    </div>
+    <div class="d-none more-block">
+      <div class="container-fluid text-start p-5 order-form">
+        <div class="row align-items-center">
+          <div class="mb-3 mb-md-0 col-12 col-md-6 order-description">
+            Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Семантика даль, если большой повстречался они грустный которое не вскоре себя, знаках необходимыми всемогущая первую большого осталось щеке все заглавных.
+            Свой взобравшись необходимыми снова рыбного, большого, грустный свое ручеек, составитель наш путь дал за города обеспечивает рукопись? Алфавит знаках, напоивший бросил дал дорогу всеми решила свой! Злых диких не коварных?
+          </div>
+          <div class="col-12 col-md-6">
+            <form class="row consult-from">
+              <div class="text-center">
+                <div class="mb-3 consult-field field-name">
+                  <input class="form-control" type="text" id="name" placeholder="Имя">
+                </div>
+                <div class="mb-3 consult-field field-phone">
+                  <input class="form-control" type="tel" id="phone" placeholder="Телефон">
+                </div>
+                <div class="mb-3 consult-field field-email">
+                  <input class="form-control" type="email" id="email" placeholder="Email">
+                </div>
+                <div>
+                  <select class="form-select">
+                    <option selected>Выберите продукт</option>
+                    <option value="1">Продукт 1</option>
+                    <option value="2">Продукт 2</option>
+                    <option value="3">Продукт 3</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-custom btn-green btn-green--order" type="submit">Заказать</button>
+      <button class="arrow-btn arrow-btn--3"></button>
+    </div>
+  </section>
+  <!-- end: продажа продуктов и лицензий -->
+
+  <section class="mt-170 text-center consult">
+    <div class="fs-3 mb-5 section-title">
+      Заказать консультации
+    </div>
+    <div class="container-fluid order-form p-5 mb-5">
+      <form class="row consult-from">
+          <div class="col-12 col-md-6 mx-auto">
+            <div class="mb-3 consult-field field-name">
+              <input class="form-control" type="text" id="name" placeholder="Имя">
+            </div>
+            <div class="mb-3 consult-field field-phone">
+              <input class="form-control" type="tel" id="phone" placeholder="Телефон">
+            </div>
+            <div class="mb-3 consult-field field-email">
+              <input class="form-control" type="email" id="email" placeholder="Email">
+            </div>
+            <div class="mb-5">
+              <div class="form-floating consult-field field-message">
+                <textarea class="form-control" placeholder="Сообщение" id="message" style="height: 100px"></textarea>
+                <label for="message">Сообщение</label>
+              </div>
+            </div>
+            <button class="btn btn-custom btn-green hide-form" type="submit">Закрыть</button>              
+          </div>     
+      </form>
+    </div>
+  </section>
+  <!-- end: заказать консультаци -->
+
+  <section class="mt-170 clients">
+    <div class="fs-3 mb-5 text-center section-title">
+      Наши клиенты
+    </div>
+
+    <div class="swiper-container w-100 mb-5">
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="mb-3 mb-lg-0 col-12 col-sm-3 col-lg-2 p-1">
+            <img class="client-logo" src="img/logo-1.png" alt="логотип: партнер">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="mb-3 mb-lg-0 col-12 col-sm-3 col-lg-2 p-1">
+            <img class="client-logo" src="img/logo-2.png" alt="логотип: партнер">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="offset-sm-1 col-12 offset-lg-0 col-sm-3 col-lg-2 p-1">
+            <img class="client-logo" src="img/logo-1.png" alt="логотип: партнер">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-prev text-secondary"></div>
+      <div class="swiper-button-next text-secondary"></div>
+    </div>
+
+<!--     <div class="container-fluid clients-content p-5">
+      <div class="row align-items-center text-center mb-4">
+        <div class="mb-3 mb-lg-0 col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-1.png" alt="логотип: партнер">
+        </div>
+
+        <div class="mb-3 mb-lg-0 col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-3.png" alt="логотип: партнер">
+        </div>
+        <div class="offset-sm-1 col-12 offset-lg-0 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-1.png" alt="логотип: партнер">
+        </div>
+        <div class="col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-2.png" alt="логотип: партнер">
+        </div>
+        <div class="col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-3.png" alt="логотип: партнер">
+        </div>
+      </div>
+      <div class="row align-items-center text-center mb-4">
+        <div class="offset-lg-1 mb-3 mb-lg-0 col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-2.png" alt="логотип: партнер">
+        </div>
+        <div class="mb-3 mb-lg-0 col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-3.png" alt="логотип: партнер">
+        </div>
+        <div class="col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-1.png" alt="логотип: партнер">
+        </div>
+        <div class="offset-sm-1 col-12 offset-lg-0 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-2.png" alt="логотип: партнер">
+        </div>
+        <div class="col-12 col-sm-3 col-lg-2 p-1">
+          <img class="client-logo" src="img/logo-3.png" alt="логотип: партнер">
+        </div>
+      </div>
+    </div> -->
+  </section>
+  <!-- end: наши клиенты -->
+
+  <footer class="p-2 p-sm-5 footer">
+    <div class="container-fluid row align-items-center">
+      <div class="col-12 mb-3 mb-sm-0 col-sm-6 footer-contacts">
+        <div class="footer-phone">+74994002630</div>
+        <div class="footer-email">E-mail</div>
+        <div class="footer-address">Город, улица, дом</div>
+        <div class="working-hours">Часы работы</div>
+      </div>
+      <div class="col-12 col-sm-6">
+        <ul class="footer-social-links row">
+          <li class="col-2">
+            <a href="#" class="social-link">
+            <img class="social-link-icon" src="img/icon-footer-vk.png" alt="иконка: vk">
+          </a>
+        </li>
+          <li class="col-2">
+            <a href="#" class="social-link">
+            <img class="social-link-icon" src="img/icon-footer-tiktok.png" alt="иконка: tiktok">
+          </a>
+        </li>
+          <li class="col-2">
+            <a href="#" class="social-link">
+            <img class="social-link-icon" src="img/icon-footer-inst.png" alt="иконка: instagram">
+          </a>
+        </li>
+          <li class="col-2">
+            <a href="#" class="social-link">
+            <img class="social-link-icon" src="img/icon-footer-telegram.png" alt="иконка: telegram">
+          </a>
+        </li>
+          <li class="col-2">
+            <a href="#" class="social-link">
+            <img class="social-link-icon" src="img/icon-footer-twitter.png" alt="иконка: twitter">
+          </a>
+        </li>
+        <li class="col-2">
+          <a href="#" class="social-link">
+            <img class="social-link-icon" src="img/icon-footer-in.png" alt="иконка: linkedin">
+          </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-5 text-center">
+      <a class="align-self-center footer-link" href="#">
+        <img class="me-2 footer-link-icon" src="img/icon-download.png" alt="иконка: скачать">
+        <span>Скачать коммерческое предложение</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
